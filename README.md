@@ -20,7 +20,7 @@ This tool captures incoming packets and decodes essential parts of the IP header
 
 ```bash
 sudo python3 sniffer_ip_header_decode.py
-
+```
 3. The script will print detected network packets in the following format:
 Protocol: <protocol> <source_ip> -> <destination_ip>
 
